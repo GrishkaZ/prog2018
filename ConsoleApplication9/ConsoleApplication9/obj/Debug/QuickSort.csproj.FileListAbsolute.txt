@@ -1,0 +1,6 @@
+D:\БАЗА ДАННЫХ\ConsoleApplication9\ConsoleApplication9\bin\Debug\ConsoleApplication9.exe.config
+D:\БАЗА ДАННЫХ\ConsoleApplication9\ConsoleApplication9\obj\Debug\QuickSort.csprojResolveAssemblyReference.cache
+D:\БАЗА ДАННЫХ\ConsoleApplication9\ConsoleApplication9\bin\Debug\ConsoleApplication9.exe
+D:\БАЗА ДАННЫХ\ConsoleApplication9\ConsoleApplication9\bin\Debug\ConsoleApplication9.pdb
+D:\БАЗА ДАННЫХ\ConsoleApplication9\ConsoleApplication9\obj\Debug\ConsoleApplication9.exe
+D:\БАЗА ДАННЫХ\ConsoleApplication9\ConsoleApplication9\obj\Debug\ConsoleApplication9.pdb
