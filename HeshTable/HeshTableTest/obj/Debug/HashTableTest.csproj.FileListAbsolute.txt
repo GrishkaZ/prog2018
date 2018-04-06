@@ -1,0 +1,9 @@
+d:\БАЗА ДАННЫХ\HeshTable\HeshTableTest\bin\Debug\HeshTableTest.dll
+d:\БАЗА ДАННЫХ\HeshTable\HeshTableTest\bin\Debug\HeshTableTest.pdb
+d:\БАЗА ДАННЫХ\HeshTable\HeshTableTest\bin\Debug\HeshTable.dll
+d:\БАЗА ДАННЫХ\HeshTable\HeshTableTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+d:\БАЗА ДАННЫХ\HeshTable\HeshTableTest\bin\Debug\HeshTable.pdb
+d:\БАЗА ДАННЫХ\HeshTable\HeshTableTest\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+d:\БАЗА ДАННЫХ\HeshTable\HeshTableTest\obj\Debug\HashTableTest.csprojResolveAssemblyReference.cache
+d:\БАЗА ДАННЫХ\HeshTable\HeshTableTest\obj\Debug\HeshTableTest.dll
+d:\БАЗА ДАННЫХ\HeshTable\HeshTableTest\obj\Debug\HeshTableTest.pdb

@@ -1,0 +1,5 @@
+d:\БАЗА ДАННЫХ\HeshTable\HeshTable\bin\Debug\HeshTable.dll
+d:\БАЗА ДАННЫХ\HeshTable\HeshTable\bin\Debug\HeshTable.pdb
+d:\БАЗА ДАННЫХ\HeshTable\HeshTable\obj\Debug\HashTable.csprojResolveAssemblyReference.cache
+d:\БАЗА ДАННЫХ\HeshTable\HeshTable\obj\Debug\HeshTable.dll
+d:\БАЗА ДАННЫХ\HeshTable\HeshTable\obj\Debug\HeshTable.pdb
