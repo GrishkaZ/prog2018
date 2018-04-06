@@ -82,7 +82,7 @@ namespace UnitTestProject1
         public void TestBigArray()
         {
             bool test = true;
-            int[] array = new int[150000000]; // 4гб оперативной памяти, процессор i3
+            int[] array = new int[150000000]; // 4гб оперативной памяти, процессор i3 
             var rand = new Random();
             for (int i = 0; i < array.Length; i++)
                 array[i] = rand.Next(0, 1499999);
