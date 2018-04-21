@@ -9,9 +9,9 @@ namespace Remont
     public class OrderRequestDto
     {
         /// <summary>
-        /// Дата заполнения
+        /// Время на работу
         /// </summary>
-        public TimeOfRepair Filled { get; set; }
+        public TimeOfRepair TimeOfRepair { get; set; }  
         /// <summary>
         /// ФИО заказчика
         /// </summary>
@@ -57,6 +57,16 @@ namespace Remont
         /// Описание поломки
         /// </summary>
         public string Description { get; set; }
+
+        public override string ToString()
+        {
+            return string.Format("{0} | {1} ", Description, BreakageType);
+        }
+
+        public Breakage Clone()
+        {
+            return new Breakage { Description = Description, BreakageType = BreakageType };
+        }
     }
 
     /// <summary>
@@ -71,18 +81,14 @@ namespace Remont
         /// <summary>
         /// Цена
         /// </summary>
-        public double Price { get; set; }
+        public decimal Price { get; set; }
     }
 
     /// <summary>
     /// Дополнительные пожелания
     /// </summary>
     public class AdditionalRequirements
-    {
-        /// <summary>
-        /// Желаемое время окончания ремонта
-        /// </summary>
-        public TimeOfRepair TimeOfRepair { get; set; }
+    {        
         /// <summary>
         /// Самостоятельное преобретение необходимых деталей
         /// </summary>
@@ -99,7 +105,6 @@ namespace Remont
     public class TimeOfRepair
     {
         int a;
-
         /// <summary>
         /// Время на ремонт
         /// </summary>
@@ -121,20 +126,15 @@ namespace Remont
         /// Дата заполнения
         /// </summary>
         public DateTime Filled { get; set; }
-
         /// <summary>
         /// Дата окончания ремонта
         /// </summary>
-        public DateTime RepairTime
+         public DateTime RepairTime (DateTime Filled)
         {
-            get
-            {
-                if (Filled <= DateTime.Today)
-                    return DateTime.Today.AddDays(Days);
-                else
-                    return Filled.AddDays(Days);
-            }
+            return Filled.AddDays(Days);
         }
+
+
     }
 
 
@@ -155,14 +155,14 @@ namespace Remont
     /// </summary>
     public enum Apparat
     {
-        Kettle,
-        Iron,
-        VacuumСleaner,
-        Microwave,
-        Mixer,
-        TV,
-        Heater,
-        OtherDevice
+        Утюг,
+        Обогреватель,
+        Пылесос,
+        Микроволновка,
+        Миксер,
+        Телевизор,
+        Чайник,
+        Другое,
     }
     /// <summary>
     /// Тип повреждения
