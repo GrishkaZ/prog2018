@@ -1,0 +1,55 @@
+﻿@model Remont.OrderRequestDto
+
+@{
+    ViewBag.Title = "Print";
+}
+
+<h2>Print</h2>
+
+<div><p>ФИО: @Model.FullName</p></div>
+<div><p>Цена: @Model.Price.Price</p></div>
+<div><p>Валюта: @Model.Price.Currency</p></div>
+<div><p>Устройство: @Model.DescriptionOfBreakageDevice.BrokenDevice</p></div>
+
+<table class="table table-bordered table-responsive table-hover">
+    <tr>
+        <th>
+            Вид повреждения
+        </th>
+        <th>
+            Описание поломки
+        </th>
+    </tr>
+    <tbody>
+        @foreach (var br in Model.DescriptionOfBreakageDevice.Breakage)
+        {
+            <div></div>
+            <tr>
+                <td style="border:1px solid black">
+                    <fieldset>
+                        <b>
+                            @br.BreakageType
+                        </b>
+                    </fieldset>
+                </td>               
+                <td style="border:1px solid black">
+                    <fieldset>
+                        <b>
+                            @br.Description
+                        </b>
+                    </fieldset>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (Model.Repair != null)
+{  
+    if (Model.Repair.BuySomeDetailsYourself)
+    {
+<div><p><b>Закупка деталей производится клиентом</b></p></div>
+    }
+<div><b>Примечания:</b></div>
+<div><p>@Model.Repair.AdditionalRequests</p></div>
+}

@@ -21,5 +21,9 @@ namespace Remont
                 return (OrderRequestDto)Xml.Deserialize(fileStream);
             }
         }
+        public static OrderRequestDto LoadFromStream(Stream file)
+        {
+            return (OrderRequestDto)Xml.Deserialize(file);
+        }
     }
 }
