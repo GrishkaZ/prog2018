@@ -1,0 +1,8 @@
+D:\БАЗА ДАННЫХ\Remont\LicenceGenerator\bin\Debug\LicenceGenerator.exe.config
+D:\БАЗА ДАННЫХ\Remont\LicenceGenerator\bin\Debug\LicenceGenerator.exe
+D:\БАЗА ДАННЫХ\Remont\LicenceGenerator\bin\Debug\LicenceGenerator.pdb
+D:\БАЗА ДАННЫХ\Remont\LicenceGenerator\obj\Debug\LicenceGenerator.exe
+D:\БАЗА ДАННЫХ\Remont\LicenceGenerator\obj\Debug\LicenceGenerator.pdb
+D:\БАЗА ДАННЫХ\Remont\LicenceGenerator\obj\Debug\Remont.LicenceGenerator.csprojResolveAssemblyReference.cache
+D:\БАЗА ДАННЫХ\Remont\LicenceGenerator\bin\Debug\Remont.dll
+D:\БАЗА ДАННЫХ\Remont\LicenceGenerator\bin\Debug\Remont.pdb

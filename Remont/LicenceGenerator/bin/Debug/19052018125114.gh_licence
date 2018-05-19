@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<LicenceDto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ValidUntil>2018-06-18T12:51:14.2384983+05:00</ValidUntil>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Gl2Sw7/l4AZPxgbDUZAlg5tb2Yk=</DigestValue></Reference></SignedInfo><SignatureValue>mkWTOf6Haw2n5UB+ODfvmbgE9sd0n1UgDYE40vRlSFUF5yDHwzaNRDYS+1d9B4MQcFzRBGQ9oKCl2t9OL4Ipb0fPeyNKJXubnKu70Ki5+1EZA/pFUmoABOauKCSP7KbrGTntTNIYk/dEjj+qmV51Bscn4oI82PkOyPBjyKVp87s=</SignatureValue></Signature></LicenceDto>

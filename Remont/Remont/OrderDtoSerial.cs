@@ -6,6 +6,7 @@ namespace Remont
     public static class RideDtoHelper
     {
         private static readonly XmlSerializer Xml = new XmlSerializer(typeof(OrderRequestDto));
+
         public static void WriteToFile(string fileName, OrderRequestDto data)
         {
             using (var fileStream = File.Create(fileName))
@@ -21,6 +22,7 @@ namespace Remont
                 return (OrderRequestDto)Xml.Deserialize(fileStream);
             }
         }
+
         public static OrderRequestDto LoadFromStream(Stream file)
         {
             return (OrderRequestDto)Xml.Deserialize(file);

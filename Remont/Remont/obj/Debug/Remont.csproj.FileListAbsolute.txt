@@ -2,3 +2,4 @@ D:\БАЗА ДАННЫХ\Remont\Remont\bin\Debug\Remont.dll
 D:\БАЗА ДАННЫХ\Remont\Remont\bin\Debug\Remont.pdb
 D:\БАЗА ДАННЫХ\Remont\Remont\obj\Debug\Remont.dll
 D:\БАЗА ДАННЫХ\Remont\Remont\obj\Debug\Remont.pdb
+d:\БАЗА ДАННЫХ\Remont\Remont\obj\Debug\Remont.csprojResolveAssemblyReference.cache
