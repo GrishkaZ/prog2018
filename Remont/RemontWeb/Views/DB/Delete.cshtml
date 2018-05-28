@@ -1,0 +1,88 @@
+﻿@model RemontWeb.Models.DBRemontModel
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Удалить</h2>
+
+<h3>Уверены, что хотите удалить это?</h3>
+<div>
+    <h4>Заказ:</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Days)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Days)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Filled)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Filled)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Currency)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Currency)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BrokenDevice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BrokenDevice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BuySomeDetailsYourself)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BuySomeDetailsYourself)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AdditionalRequests)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AdditionalRequests)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

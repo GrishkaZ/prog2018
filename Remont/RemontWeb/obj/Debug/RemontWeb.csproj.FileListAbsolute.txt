@@ -77,8 +77,10 @@ D:\БАЗА ДАННЫХ\Remont\RemontWeb\bin\Microsoft.Owin.Security.OAuth.xml
 D:\БАЗА ДАННЫХ\Remont\RemontWeb\bin\Microsoft.Owin.Security.Google.xml
 D:\БАЗА ДАННЫХ\Remont\RemontWeb\bin\Microsoft.Owin.Security.Twitter.xml
 D:\БАЗА ДАННЫХ\Remont\RemontWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-D:\БАЗА ДАННЫХ\Remont\RemontWeb\obj\Debug\RemontWeb.csprojResolveAssemblyReference.cache
 D:\БАЗА ДАННЫХ\Remont\RemontWeb\obj\Debug\RemontWeb.dll
 D:\БАЗА ДАННЫХ\Remont\RemontWeb\obj\Debug\RemontWeb.pdb
 D:\БАЗА ДАННЫХ\Remont\RemontWeb\bin\Remont.dll
 D:\БАЗА ДАННЫХ\Remont\RemontWeb\bin\Remont.pdb
+D:\БАЗА ДАННЫХ\Remont\RemontWeb\obj\Debug\RemontWeb.csprojAssemblyReference.cache
+D:\БАЗА ДАННЫХ\Remont\RemontWeb\obj\Debug\RemontWeb.csproj.CoreCompileInputs.cache
+D:\БАЗА ДАННЫХ\Remont\RemontWeb\obj\Debug\RemontWeb.csproj.CopyComplete

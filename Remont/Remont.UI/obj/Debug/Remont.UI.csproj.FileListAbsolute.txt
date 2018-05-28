@@ -3,10 +3,12 @@ D:\БАЗА ДАННЫХ\Remont\Remont.UI\bin\Debug\Remont.UI.exe
 D:\БАЗА ДАННЫХ\Remont\Remont.UI\bin\Debug\Remont.UI.pdb
 D:\БАЗА ДАННЫХ\Remont\Remont.UI\bin\Debug\Remont.dll
 D:\БАЗА ДАННЫХ\Remont\Remont.UI\bin\Debug\Remont.pdb
-D:\БАЗА ДАННЫХ\Remont\Remont.UI\obj\Debug\Remont.UI.csprojResolveAssemblyReference.cache
 D:\БАЗА ДАННЫХ\Remont\Remont.UI\obj\Debug\Remont.UI.Form1.resources
 D:\БАЗА ДАННЫХ\Remont\Remont.UI\obj\Debug\Remont.UI.Properties.Resources.resources
 D:\БАЗА ДАННЫХ\Remont\Remont.UI\obj\Debug\Remont.UI.csproj.GenerateResource.Cache
 D:\БАЗА ДАННЫХ\Remont\Remont.UI\obj\Debug\Remont.UI.exe
 D:\БАЗА ДАННЫХ\Remont\Remont.UI\obj\Debug\Remont.UI.pdb
 d:\БАЗА ДАННЫХ\Remont\Remont.UI\obj\Debug\Remont.UI.DescriptionOfBreakForm.resources
+D:\БАЗА ДАННЫХ\Remont\Remont.UI\obj\Debug\Remont.UI.csprojAssemblyReference.cache
+D:\БАЗА ДАННЫХ\Remont\Remont.UI\obj\Debug\Remont.UI.csproj.CoreCompileInputs.cache
+D:\БАЗА ДАННЫХ\Remont\Remont.UI\obj\Debug\Remont.UI.csproj.CopyComplete
